@@ -13,18 +13,39 @@
   padding: 0;
 }
 
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
 ul ul {
   margin: 0;
   padding: 0;
   border-radius: 20px;
-  border: 1px aquamarine solid;
+  border: 1px rgb(55, 148, 117) solid;
   list-style-type: none;
+  background-color: rgb(174, 205, 252);
 }
 
 ul ul ul {
   padding-left: 0;
   margin: 0 0 0 30px;
 }
+
+/* ul ul ul ul {
+  background-color: rgb(147, 211, 253);
+}
+
+ul ul ul ul ul ul {
+  background-color: rgb(230, 198, 218);
+}
+
+ul ul ul ul ul ul ul ul {
+  background-color: rgb(255, 167, 95);
+} */
 
 ul > li {
   padding: 5px 5px 5px 15px;
