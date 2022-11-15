@@ -27,75 +27,7 @@
           {
             "id": "6",
             "name": "walla",
-            "url": "www.walla.co.il",
-            "subData": [
-              {
-                "id": "4",
-                "name": "mako",
-                "url": "www.mako.co.il"
-              },
-              {
-                "id": "5",
-                "name": "google",
-                "url": "www.google.com",
-                "subData": [
-                  {
-                    "id": "4",
-                    "name": "mako",
-                    "url": "www.mako.co.il"
-                  },
-                  {
-                    "id": "5",
-                    "name": "google",
-                    "url": "www.google.com"
-                  },
-                  {
-                    "id": "6",
-                    "name": "walla",
-                    "url": "www.walla.co.il",
-                    "subData": [
-                      {
-                        "id": "4",
-                        "name": "mako",
-                        "url": "www.mako.co.il"
-                      },
-                      {
-                        "id": "5",
-                        "name": "google",
-                        "url": "www.google.com",
-                        "subData": [
-                          {
-                            "id": "18",
-                            "name": "ynet",
-                            "url": "www.ynet.co.il"
-                          },
-                          {
-                            "id": "19",
-                            "name": "google",
-                            "url": "www.google.com"
-                          },
-                          {
-                            "id": "20",
-                            "name": "walla",
-                            "url": "www.walla.co.il"
-                          }
-                        ]
-                      },
-                      {
-                        "id": "6",
-                        "name": "walla",
-                        "url": "www.walla.co.il"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "id": "6",
-                "name": "walla",
-                "url": "www.walla.co.il"
-              }
-            ]
+            "url": "www.walla.co.il"
           }
         ]
       },

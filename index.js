@@ -16,7 +16,7 @@ function createList(data, removeDepth) {
 }
 
 function createElement(item) {
-  const { id, name, url, subData = null } = item;
+  const { id, name, url, subData = null } = item; // id:1 name: "bar", url: "localhost:3000"
   let subDataItem = [];
 
   // check if need to create another list
@@ -40,7 +40,9 @@ function createElement(item) {
 
 function createSubDataList(subData) {
   depth++;
+
   if (highestDepth < depth) highestDepth++;
+
   return `
       <ul class="ul-no-style">
         ${createList(subData, true)}
@@ -61,21 +63,21 @@ function randomRgbColor() {
 // adding css style according to depth of nested ul elements
 function addStyleToBody() {
   // adding first depth count
-  highestDepth++;
   //create the style element and appending it
   const head = document.head || document.getElementsByTagName('head')[0];
   const style = document.createElement('style');
   head.appendChild(style);
 
   const twoUlElements = ' ul ul';
+
   // for every step into depth of ul inside node, add ul ul selectors
-  for (let i = 0; i < 16; i++) {
+  for (let i = 0; i < highestDepth; i++) {
     style.innerHTML += `
-        ul ul${twoUlElements.repeat(i)} {
-          background-color: rgb(${randomRgbColor()})
-        }
-      `;
+  ul ul ul ul${twoUlElements.repeat(i)} {
+    background-color: rgb(${randomRgbColor()})
+  }`;
   }
 }
+
 console.log(highestDepth);
 addStyleToBody();

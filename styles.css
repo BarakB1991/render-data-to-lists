@@ -1,4 +1,4 @@
-.app {
+#app {
   display: flex;
   flex-direction: row;
   list-style-type: none;
@@ -34,18 +34,6 @@ ul ul ul {
   padding-left: 0;
   margin: 0 0 0 30px;
 }
-
-/* ul ul ul ul {
-  background-color: rgb(147, 211, 253);
-}
-
-ul ul ul ul ul ul {
-  background-color: rgb(230, 198, 218);
-}
-
-ul ul ul ul ul ul ul ul {
-  background-color: rgb(255, 167, 95);
-} */
 
 ul > li {
   padding: 5px 5px 5px 15px;
