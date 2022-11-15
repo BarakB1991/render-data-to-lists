@@ -20,7 +20,7 @@ function createElement(item, depth) {
   const { id, name, url, subData } = item;
   return `
     <li>
-      <ul style="background: ${getColorForDepth(depth)}">
+      <ul style="background: ${getColorForDepth(depth)};">
       <li>Id:${id}</li>
       <li>Site Name:${name}</li>
       <li>
