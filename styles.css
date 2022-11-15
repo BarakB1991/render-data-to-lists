@@ -6,21 +6,6 @@
   margin: 0;
 }
 
-.ul-no-style {
-  border: none;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.red {
-  background-color: red;
-}
-
-.yellow {
-  background-color: yellow;
-}
-
 ul ul {
   margin: 0;
   padding: 0;
@@ -38,4 +23,8 @@ ul ul ul {
 ul > li {
   padding: 5px 5px 5px 15px;
   list-style: none;
+}
+
+li + li {
+  min-width: max-content;
 }
